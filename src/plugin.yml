@@ -1,0 +1,14 @@
+name: Report
+version: 1.0.0
+author: ejer
+main: ga.ejer.report.Main
+website: ejer.gq/SpigotReport
+commands:
+  report:
+    description: Report a player.
+    usage: /<command> <player> <reason>
+    aliases: [helpop]
+permissions:
+  report.see:
+    description: Allows to see player reports.
+    default: op
